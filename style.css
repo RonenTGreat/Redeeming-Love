@@ -6,10 +6,12 @@
   padding: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
-  /* background-color: #537888; */
-  /* color: #F7F7F7; */
 }
 
 li,
@@ -48,6 +50,7 @@ header {
 .logo {
   font-family: "Merriweather", serif;
   margin-right: auto;
+  font-size: 2rem;
   color: #f90716;
 }
 
@@ -58,7 +61,7 @@ header {
 }
 
 .slider {
-  margin-left: 30em;
+  margin-left: 10em;
 }
 
 .section_title h1 {
@@ -73,6 +76,7 @@ header {
 .title-msg {
   margin-left: 40px;
   margin-top: 50px;
+  margin-right: 250px;
   text-align: left;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -93,6 +97,8 @@ header {
   height: 400px;
   width: 100%;
   transition: all 0.15s ease;
+  background:#daddfc;
+
 }
 
 .images input {
@@ -132,6 +138,31 @@ header {
   margin-left: -300%;
 }
 
-img{
-  background:#daddfc;
+.about{
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.about-title{
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Merriweather", serif;
+  font-size: 1.5rem;
+  color: #396eb0;
+  
+}
+
+.about p{
+  margin-left: 300px;
+  margin-right: 300px;
+  line-height: 2;
+  font-size: 1rem;
+}
+
+.about h3{
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px 0;
+  color: #396eb0;
+  font-size: 1.5rem;
 }
