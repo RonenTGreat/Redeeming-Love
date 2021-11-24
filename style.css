@@ -1,78 +1,137 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather&family=Montserrat:wght@200;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather&family=Montserrat:wght@200;400;600&display=swap");
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: 'Montserrat', sans-serif;
-    /* background-color: #537888; */
-    /* color: #F7F7F7; */
+body {
+  font-family: "Montserrat", sans-serif;
+  /* background-color: #537888; */
+  /* color: #F7F7F7; */
 }
 
-li, a{
-    font-weight: 400;
-    font-size: 16px;
-    color: #a5050f;
-    text-decoration: none;
+li,
+a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #a5050f;
+  text-decoration: none;
 }
 
-header{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 30px 10%;
-    background-color: #83bdd6;
-    margin-bottom: 80px;
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #83bdd6;
 }
 
-.nav__links{
-    list-style: none;
+.nav__links {
+  list-style: none;
 }
 
-.nav__links li{
-    display: inline-block;
-    padding: 0 20px;
+.nav__links li {
+  display: inline-block;
+  padding: 0 20px;
 }
 
-.nav__links li a{
-    transition: all 0.3s ease 0s ;
+.nav__links li a {
+  transition: all 0.3s ease 0s;
 }
 
-.nav__links li a:hover{
-    color: rgb(248, 131, 151);
+.nav__links li a:hover {
+  color: rgb(248, 131, 151);
 }
 
-.logo{
-    font-family: 'Merriweather', serif;
-    margin-right: auto;
-    color: #F90716;
+.logo {
+  font-family: "Merriweather", serif;
+  margin-right: auto;
+  color: #f90716;
 }
 
-.title{
-    display: flex;
+.title {
+  display: flex;
+  background: #DADDFC;
+  padding-top: 50px;
 }
 
-.slide{
-    margin-left: 30em;
+.slider {
+  margin-left: 30em;
 }
 
-.section_title h1{
-    font-family: 'Great Vibes', cursive;
-    font-size: 4.5rem;
-    line-height: 1;
-    margin-left: 20px;
-    margin-top: 50px;
-    color: #396EB0;
-    font-weight: bold;
-
+.section_title h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 4.5rem;
+  margin-left: 40px;
+  margin-top: 50px;
+  color: #396eb0;
+  font-weight: bold;
 }
 
-p{
-    margin-left:20px;
-    margin-top: 50px;
-    text-align: left;
-    font-size: 1.5rem;
+.title-msg {
+  margin-left: 40px;
+  margin-top: 50px;
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.slider {
+  position: relative;
+  width: 60%;
+  overflow: hidden;
+}
+
+.images {
+  display: flex;
+  width: 100%;
+}
+
+.images img {
+  height: 400px;
+  width: 100%;
+  transition: all 0.15s ease;
+}
+
+.images input {
+  display: none;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.dots label {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: solid #83bdd6 3px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin: 5px;
+}
+
+.dots label:hover {
+  background: #83bdd6;
+}
+#img1:checked ~ .m1 {
+  margin-left: 0;
+}
+#img2:checked ~ .m2 {
+  margin-left: -100%;
+}
+
+#img3:checked ~ .m3 {
+  margin-left: -200%;
+}
+#img4:checked ~ .m4 {
+  margin-left: -300%;
+}
+
+img{
+  background:#daddfc;
 }
