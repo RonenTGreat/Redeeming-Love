@@ -6,7 +6,7 @@
   padding: 0;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -56,7 +56,7 @@ header {
 
 .title {
   display: flex;
-  background: #DADDFC;
+  background: #daddfc;
   padding-top: 50px;
   margin-bottom: 2px;
 }
@@ -98,8 +98,7 @@ header {
   height: 400px;
   width: 100%;
   transition: all 0.15s ease;
-  background:#daddfc;
-
+  background: #daddfc;
 }
 
 .images input {
@@ -139,32 +138,30 @@ header {
   margin-left: -300%;
 }
 
-.about{
+.about {
   padding-top: 50px;
   background-color: #83bdd6;
   margin-bottom: 2px;
-
 }
 
-.about-title{
+.about-title {
   text-align: center;
   padding-bottom: 20px;
   font-family: "Merriweather", serif;
   font-size: 1.5rem;
   color: #396eb0;
-  
 }
 
-.about p{
+.about p {
   margin-left: 300px;
   margin-right: 300px;
-  line-height: 2;
+  line-height: 1.5;
   font-size: 1rem;
   padding-bottom: 50px;
   letter-spacing: 0.09em;
 }
 
-.about h3{
+.about h3 {
   text-align: center;
   margin: 20px 0;
   padding: 10px 0;
@@ -172,8 +169,41 @@ header {
   font-size: 1.5rem;
 }
 
-.author{
+.author {
   display: flex;
-  background: #DADDFC;
-  
+  background: #daddfc;
+  padding-bottom: 25px;
+}
+
+.about-author {
+  padding: 0 70px;
+}
+
+.about-author h2 {
+  font-family: "Merriweather", serif;
+  color: #396eb0;
+  font-size: 1.5rem;
+  padding: 5px 0;
+  margin-top: 20px;
+}
+
+.about-author h3 {
+  font-family: "Merriweather", serif;
+  color: #396eb0;
+  font-size: 1rem;
+  padding: 5px 0;
+}
+
+.author p{
+  font-size: 1rem;
+  padding-top: 5px;
+  letter-spacing: 0.09em;
+  line-height: 1.5;
+}
+
+.author img{
+  margin: 20px;
+  box-shadow: 19px 20px 14px -7px rgba(112,106,106,0.43);
+-webkit-box-shadow: 19px 20px 14px -7px rgba(112,106,106,0.43);
+-moz-box-shadow: 19px 20px 14px -7px rgba(112,106,106,0.43);
 }
